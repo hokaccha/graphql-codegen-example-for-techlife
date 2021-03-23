@@ -1,0 +1,8 @@
+schema: ../schema.graphql
+documents: graphql/**/*.graphql
+generates:
+  lib/generated/sdk.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-graphql-request

@@ -1,0 +1,7 @@
+query getRecipe($id: Int!) {
+  recipe(id: $id) {
+    id
+    title
+    imageUrl
+  }
+}
